@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/aria-proptypes */
+/* eslint-disable prettier/prettier */
 import {
     ButtonGroup,
     Box,

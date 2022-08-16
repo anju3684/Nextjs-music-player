@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import { StoreProvider } from 'easy-peasy'
 import PlayerLayout from '../components/playerLayout'
@@ -39,7 +40,7 @@ const MyApp = ({ Component, pageProps }) => {
         {Component.authPage ? (
           <Component {...pageProps} />
         ) : (
-          <PlayerLayout Children={<Component {...pageProps}/>}></PlayerLayout> 
+          <PlayerLayout Children={<Component {...pageProps}/>}/>
         )}
       </StoreProvider>
     </ChakraProvider>

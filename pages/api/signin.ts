@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable import/order */
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
 import cookie from "cookie"

@@ -1,9 +1,11 @@
+/* eslint-disable import/order */
+import prisma from "../../lib/prisma";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import cookie from "cookie";
 import { NextApiRequest, NextApiResponse } from "next";
-import prisma from "../../lib/prisma";
-import { User } from "@prisma/client";
+
+
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const salt = bcrypt.genSaltSync();
